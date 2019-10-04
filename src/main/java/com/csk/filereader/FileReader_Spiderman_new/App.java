@@ -13,7 +13,7 @@ public class App
         try{
         	
         	Scanner scan=new Scanner(new FileReader("Spider-Man.Far.from.Home.srt") );
-        	int k=10; // filmin kaç sn geri olduğunu gösteren değer 
+        	int k=10; // filmin kaç sn geri olduğunu gösteren değerr
         	
         	String x="";
         	String y="";
