@@ -137,8 +137,10 @@ public class App
 	    				
 	    				newmin12=Integer.parseInt(min12)+1;
 	    				newsec12=newsec12-60;
+	    				System.out.println(newmin12 + ":::"+newsec12);
 	    				if(newsec12<10){
 	    					sec12="0"+Integer.toString(newsec12);
+	    					System.out.println(newmin12);
 	    				}else{
 	    					sec12=Integer.toString(newsec12);
 	    				}
@@ -174,7 +176,7 @@ public class App
         			
     			}else{
     				
-    				outfile.println(lineinfo);
+    				//outfile.println(lineinfo);
     			}
     		
  		
@@ -187,7 +189,7 @@ public class App
    
     		outfile.close();
     		
-    		System.out.println(newtime);
+    		//System.out.println(newtime);
     	
     		
     			   	
